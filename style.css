@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+.container .search-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.container .search-Container #searchInput{
+    padding: 12px 15px;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    flex: 1;
+}
+.container .search-Container #searchButton{
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.container .search-Container #searchButton:hover{
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.country-info{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+.loading{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+.country-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
